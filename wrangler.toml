@@ -1,0 +1,11 @@
+# Kanto Pokédex on Cloudflare Workers (static assets).
+# Worker: hector-dex. Single-file app served at dex.hector.app.
+name = "hector-dex"
+compatibility_date = "2026-09-08"
+workers_dev = true
+
+assets = { directory = "." }
+
+routes = [
+  { pattern = "dex.hector.app", custom_domain = true },
+]
