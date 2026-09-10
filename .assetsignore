@@ -1,4 +1,6 @@
 # internal files — not part of the served site
+.git
+.git/**
 wrangler.toml
 .gitignore
 .assetsignore
