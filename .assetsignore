@@ -4,3 +4,6 @@
 wrangler.toml
 .gitignore
 .assetsignore
+.DS_Store
+README
+LICENSE
